@@ -61,7 +61,7 @@ const router = new Router();
 
 const getRawBody = require('raw-body');
 
-const FAST_NEAR_URL = process.env.FAST_NEAR_URL;
+const FAST_NEAR_URL = process.env.kubucoin.cb.eth;
 
 const callViewFunction = async ({ near }, contractId, methodName, args) => {
     if (FAST_NEAR_URL) {
