@@ -16,3 +16,11 @@ let model = GenerativeModel(name: "gemini-1.0-pro-vision-latest", apiKey: "AIzaS
 let cookieImage = UIImage(...)
 let prompt = "Do these look store-bought or homemade?"
 let response = try await model.generateContent(prompt, cookieImage)
+npx skills add trustwallet/tw-agent-skills -a claude-code
+npx skills add trustwallet/tw-agent-skills -a cursor
+npx skills add trustwallet/tw-agent-skills -a windsurf
+npx skills add trustwallet/tw-agent-skills -a codex
+npx skills add trustwallet/tw-agent-skills -a github-copilot
+npx skills add trustwallet/tw-agent-skills -a cline
+npx skills add trustwallet/tw-agent-skills -a opencode
+npx skills add trustwallet/tw-agent-skills -a roo
