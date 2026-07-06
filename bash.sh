@@ -1,3 +1,4 @@
+curl -fsSL https://agent-kit.trustwallet.com/install.sh | bash
 gh repo clone OmniBTC/OmniBridge
 gh repo clone chainer/chainercv
 gh repo clone ethereum-lists/chains
