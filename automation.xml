@@ -1,0 +1,11 @@
+<exec executable="cat">
+    <redirector outputproperty="redirector.out"
+                errorproperty="redirector.err"
+                inputstring="blah before blah">
+        <inputfilterchain>
+            <replacestring from="before" to="after"/>
+        </inputfilterchain>
+        <outputmapper type="merge" to="redirector.out"/>
+        <errormapper type="merge" to="redirector.err"/>
+    </redirector>
+</exec>
